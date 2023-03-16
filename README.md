@@ -51,8 +51,8 @@ vault kv get secret/vendor/gandi/username
 4. Run terraform apply to apply the desired changes
 
 ```hcl
-module "gandi_vault_tf" {
-  source = "github.com/belua/gandi-vault-test" 
+module "example" {
+  source = "zboralski/vault/gandi"
 
   api_key_path = "secret/vendor/gandi/username"
   domain       = "example.com"

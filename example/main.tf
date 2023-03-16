@@ -1,5 +1,5 @@
 module "gandi_vault_tf" {
-  source = "../" 
+  source = "zboralski/vault/gandi"
 
   api_key_path = "secret/vendor/gandi/username"
   domain       = "example.com"
