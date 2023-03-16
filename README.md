@@ -1,6 +1,6 @@
 # Gandi with Vault and Terraform
 
-`gandi-vault-tf` lets you manage Gandi DNS records using the Gandi API key stored in Vault.
+`terraform-gandi-vault` lets you manage Gandi DNS records using the Gandi API key stored in Vault.
 
 ## Prerequisites
 
