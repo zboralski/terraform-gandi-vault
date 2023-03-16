@@ -13,6 +13,8 @@
 
 ```bash
 vault secrets list -detailed
+[...]
+```
 
 ```bash
 vault secrets enable -path=secret kv-v2
